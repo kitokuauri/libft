@@ -1,4 +1,4 @@
-int ft_strlcat(char *dest, char *src, unsigned int size)
+size_t ft_strlcat(char * restrict dest, const char * restrict src, size_t size)
 {
     unsigned int i;
     unsigned int j;
